@@ -6,27 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <form>
-        <label for="email">Enter Email Id :</label>
-        <input type="text" id="email" placeholder="abcd@gmail.com">
+    <fieldset>
+        <legend>enter your comments : </legend>
+        <form>
+            <label for="email">Enter Email Id :</label>
+            <input type="text" id="email" placeholder="abcd@gmail.com">
+            <br><br>
+            <label for="pass">Enter password :</label>
+            <input type="text" id="pass">
+            <br><br>
+            <input type="submit" value="click">
+        </form>
         <br><br>
-        <label for="pass">Enter password :</label>
-        <input type="text" id="pass">
-        <br><br>
-        <input type="submit" value="click">
-    </form>
-    <br><br>
-    <form >
-        <label for="gender">gender :</label>
-        <input type="checkbox" id="gender">male
-        <input type="checkbox" id="gender">female
-        <br><br>
-        <label for="dob">DOB :</label>
-        <input type="date" id="dob" placeholder="DD/MM/YYYY">
-        <label for="country">country :</label>
-        <input type="radio" id="country">
-    </form>
+        <form>
+            <label for="gender">gender :</label>
+            <input type="checkbox" id="gender">male
+            <input type="checkbox" id="gender">female
+            <br><br>
+            <label for="dob">DOB :</label>
+            <input type="date" id="dob" placeholder="DD/MM/YYYY">
+            <br><br>
+            <label for="selecto1">Choose your Country :</label>
+            <select name="countries" id="selecto1">
+                <option value="Dubai">dubai</option>
+                <option value="America">america</option>
+                <option value="Canada">canada</option>
+                <option value="Australia">australia</option>
+                <option value="India">india</option>
+            </select>
+            <br><br>
+            <button>mai hu button</button>
+            <br><br>
+            <label for="textarea1">Comment Here</label>
+            <br><br>
+            <textarea name="textarea1" id="textarea1" cols="15" rows="2" placeholder="enter your text here"></textarea>
+            <label for="pet-select">Choose a pet:</label>
+
+            <select name="pets" id="pet-select">
+                <option value="">--Please choose an option--</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="hamster">Hamster</option>
+                <option value="parrot">Parrot</option>
+                <option value="spider">Spider</option>
+                <option value="goldfish">Goldfish</option>
+            </select>
+        </form>
+    
+    </fieldset>
+    <fieldset>
+        <legend>Revision Example</legend>
+        <form >
+            <label for="name">textfield :</label>
+            <input type="text" name="textfiled1" id="name">
+            <br><br>
+            <label for="button1">Button :</label>
+            <input type="submit" name="button1" id="button1">
+            <br><br>
+            <label for="gender">gender:</label>
+            <input type="radio" id="gender">M
+            <input type="radio" id="gender">F
+            <br><br>
+        </form>
+    </fieldset>
 </body>
 
 </html>
