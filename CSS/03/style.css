@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 h1{
     background-color: aquamarine;
     border-style: solid;
@@ -17,7 +22,9 @@ span{
     background-color: antiquewhite;
     border: solid black 3px ;
     border-radius: 5px; 
-    width: 200px;                               
+    width: 200px;
+    padding: 30px 20px 45px 10px;    
+    margin: 5px;                           
 }
 .secondclass{
     background-color: beige;
