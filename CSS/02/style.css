@@ -1,0 +1,24 @@
+p{
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Fasthand', cursive;
+    font-weight: 900;
+    line-height: 30px;
+}
+#firstpara{
+    color: blueviolet;
+    background-color: aqua;
+}
+#secondpara{
+    background-color: rgba(100, 150, 110, 0.846);
+}
+#thirdpara{
+    background-color:  rgba(22, 148, 146, 0.945);
+
+}
+#fourthpara{
+    background-color: #fcd703;
+}
+.firstclass{
+    background-color: hsla(203, 79%, 66%, 1);
+}

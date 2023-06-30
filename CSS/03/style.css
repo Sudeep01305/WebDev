@@ -1,0 +1,33 @@
+h1{
+    background-color: aquamarine;
+    border-style: solid;
+    border-width: 4px;
+    border-color: brown;
+    border-radius: 20px;
+    width: 300px;
+}
+span{
+    background-color: aquamarine;
+    border: solid black 3px ;
+    border-radius: 5px;
+    width: 300px; 
+    height: 500px;
+}
+.firstclass{
+    background-color: antiquewhite;
+    border: solid black 3px ;
+    border-radius: 5px; 
+    width: 200px;                               
+}
+.secondclass{
+    background-color: beige;
+    border: solid black 3px ;
+    border-radius: 5px; 
+    width: 200px;                   
+}
+.thirdclass{
+    background-color :darkkhaki;
+    border: solid black 3px ;
+    border-radius: 5px; 
+    width: 200px;                   
+}
